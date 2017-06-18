@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List WebApp</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+  </head>
+  <body>
+    <div class='itemInsert'>
+      <h2>A to do list webApp for practice</h2>
+      <!-- autofocus, so the cursor will be in the right place when opening the page !-->
+      <input type="text"  autofocus="autofocus" id='itemAdd' placeholder="What is there to do?">
+      <span onclick="newEl()"  id= "click" class="itemBtn">Add</span>
+    </div>
+    <div class='listItem'>
+      <ul id="myList">
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
